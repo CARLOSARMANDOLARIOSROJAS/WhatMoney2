@@ -1,4 +1,5 @@
 export const Nav = () => {
+
   return (
     <>
       <div className="site-mobile-menu site-navbar-target">
@@ -9,7 +10,7 @@ export const Nav = () => {
         </div>
         <div className="site-mobile-menu-body"></div>
       </div>
-      
+ 
       <nav className="site-nav">
         <div className="container">
           <div className="menu-bg-wrap">
@@ -30,45 +31,13 @@ export const Nav = () => {
                     <li className="active">
                       <a href="index.html">Inicio</a>
                     </li>
-                    <li className="has-children">
-                      <ul className="dropdown">
-                        <li>
-                          <a href="financing.html">Financing</a>
-                        </li>
-                        <li>
-                          <a href="single.html">Blog Single</a>
-                        </li>
-                        <li>
-                          <a href="case-study.html">Case Study Detail</a>
-                        </li>
-                        <li>
-                          <a href="#">Menu One</a>
-                        </li>
-                        <li>
-                          <a href="#">Menu Two</a>
-                        </li>
-                        <li className="has-children">
-                          <a href="#">Dropdown</a>
-                          <ul className="dropdown">
-                            <li>
-                              <a href="#">Sub Menu One</a>
-                            </li>
-                            <li>
-                              <a href="#">Sub Menu Two</a>
-                            </li>
-                            <li>
-                              <a href="#">Sub Menu Three</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
+
                     <li>
-                      <a href="blog.html">Blog</a>
+                      <a href="blog.html">Educación Financiera</a>
                     </li>
                     {/* <li><a href="services.html">Services</a></li> */}
                     <li>
-                      <a href="about.html">Acerca de nosotros</a>
+                      <a href="about.html">Membresía</a>
                     </li>
                     <li>
                       <a href="contact.html">Contacto</a>
@@ -94,6 +63,8 @@ export const Nav = () => {
           </div>
         </div>
       </nav>
+
+      
     </>
   );
 };
